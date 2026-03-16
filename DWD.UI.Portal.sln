@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.UI.Portal", "DWD.UI.Por
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.UI.Portal.Client", "DWD.UI.Portal\DWD.UI.Portal.Client\DWD.UI.Portal.Client.csproj", "{BBBF8315-5AAE-4A66-8456-9743DCB2B145}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWD.UI.Portal.OfficeInterop", "DWD.UI.Portal\DWD.UI.Portal.OfficeInterop\DWD.UI.Portal.OfficeInterop.csproj", "{C1E2F3A4-5B6C-7D8E-9F0A-1B2C3D4E5F6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BBBF8315-5AAE-4A66-8456-9743DCB2B145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBBF8315-5AAE-4A66-8456-9743DCB2B145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBBF8315-5AAE-4A66-8456-9743DCB2B145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E2F3A4-5B6C-7D8E-9F0A-1B2C3D4E5F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E2F3A4-5B6C-7D8E-9F0A-1B2C3D4E5F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E2F3A4-5B6C-7D8E-9F0A-1B2C3D4E5F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E2F3A4-5B6C-7D8E-9F0A-1B2C3D4E5F6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
