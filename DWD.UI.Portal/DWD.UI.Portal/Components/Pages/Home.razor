@@ -1,0 +1,16 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1 class="p-4 font-bold text-blue-600">Hello, world!</h1>
+<AuthorizeView>
+    <Authorized>
+        <a href="#">
+            Hello, @(context.User?.Identity?.Name ?? "User")!
+        </a>
+        <a href="account/signout">Sign out</a>
+    </Authorized>
+    <NotAuthorized>
+        <a href="account/signin">Sign in</a>
+    </NotAuthorized>
+</AuthorizeView>

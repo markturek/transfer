@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "@tailwindcss/postcss": "^4.1.17",
+    "preline": "^3.2.3",
+    "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "browser-sync": "^2.27.11",
+    "esbuild": "^0.19.4",
+    "esbuild-sass-plugin": "^2.16.1",
+    "fs-extra": "^11.1.1",
+    "postcss": "^8.4.35",
+    "postcss-import": "^14.1.0"
+  },
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i wwwroot/app.css -o wwwroot/css/tailwind.css",
+    "build:assets": "node esbuild.config.js",
+    "build": "npm run build:css && npm run build:assets",
+    "watch:css": "npx @tailwindcss/cli -i wwwroot/app.css -o wwwroot/css/tailwind.css --watch"
+  }
+}
